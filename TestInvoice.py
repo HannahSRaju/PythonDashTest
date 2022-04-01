@@ -7,9 +7,6 @@ def products():
                 'Notebook': {'qnt': 5, 'unit_price': 7.5, 'discount': 10}}
     return products
 
-def test_CanFindInvoiceClass():
-    invoice = Invoice()
-
 @pytest.fixture()
 def invoice():
     invoice = Invoice()
